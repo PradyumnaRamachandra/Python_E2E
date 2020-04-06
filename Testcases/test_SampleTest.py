@@ -46,6 +46,7 @@ class LoginTest(unittest.TestCase):
         def tearDown(self):
             print("Test Completed")
 
-
+if __name__=="__main__":
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output="C:\\PythonProjects\\Python_E2E\\reports"))
 
 

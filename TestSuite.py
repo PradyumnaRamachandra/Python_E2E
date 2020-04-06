@@ -14,6 +14,3 @@ suite = loader.discover("C:\\PythonProjects\\Python_E2E\\Testcases")
 runner=HtmlTestRunner.HTMLTestRunner(output="C:/PythonProjects/Python_E2E/reports")
 if suite:
     runner.run(suite)
-
-if __name__=="__main__":
-    unittest.main()
