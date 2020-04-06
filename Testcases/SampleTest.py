@@ -8,7 +8,7 @@ from Pages.HomePage import HomePage
 import HtmlTestRunner
 
 
-
+# Test Script
 class LoginTest(unittest.TestCase):
 
     @classmethod
