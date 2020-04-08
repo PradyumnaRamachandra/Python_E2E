@@ -39,7 +39,7 @@ class LoginTest(unittest.TestCase):
             login = LoginPage(driver)
             login.Login()
             homepage = HomePage(driver)
-            homepage.validate_homepage("abcdefg@email.com", "xxxx")
+            homepage.validate_homepage("thanu@email.com", "xxxx")
             driver.close()
 
 
